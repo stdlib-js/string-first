@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/string-first",
   "version": "0.0.0",
-  "description": "Return the first visual character(s) of a string.",
+  "description": "Return the first character(s) of a string.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -40,7 +40,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-assert-contains": "github:stdlib-js/array-base-assert-contains#main",
+    "@stdlib/assert-has-own-property": "^0.0.7",
     "@stdlib/assert-is-nonnegative-integer": "^0.0.7",
+    "@stdlib/assert-is-plain-object": "^0.0.7",
     "@stdlib/assert-is-regexp-string": "^0.0.9",
     "@stdlib/assert-is-string": "^0.0.8",
     "@stdlib/cli-ctor": "^0.0.3",
@@ -48,8 +51,10 @@
     "@stdlib/process-read-stdin": "^0.0.7",
     "@stdlib/regexp-eol": "^0.0.7",
     "@stdlib/streams-node-stdin": "^0.0.7",
+    "@stdlib/string-base-first": "github:stdlib-js/string-base-first#main",
+    "@stdlib/string-base-first-code-point": "github:stdlib-js/string-base-first-code-point#main",
+    "@stdlib/string-base-first-grapheme-cluster": "github:stdlib-js/string-base-first-grapheme-cluster#main",
     "@stdlib/string-format": "^0.0.3",
-    "@stdlib/string-next-grapheme-cluster-break": "^0.0.9",
     "@stdlib/utils-regexp-from-string": "^0.0.9"
   },
   "devDependencies": {
@@ -89,7 +94,10 @@
     "str",
     "first",
     "character",
-    "char"
+    "char",
+    "grapheme",
+    "unicode",
+    "codepoint"
   ],
   "funding": {
     "type": "opencollective",
