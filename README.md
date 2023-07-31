@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@deno/mod.js';
+import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@v0.0.1-deno/mod.js';
 ```
 
 #### first( str\[, n]\[, options] )
@@ -90,7 +90,7 @@ out = first( 'foo bar', 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@deno/mod.js';
+import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@v0.0.1-deno/mod.js';
 
 var str = first( 'last man standing' );
 // returns 'l'
