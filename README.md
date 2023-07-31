@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@esm/index.mjs';
+import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@v0.0.1-esm/index.mjs';
 ```
 
 #### first( str\[, n]\[, options] )
@@ -95,7 +95,7 @@ out = first( 'foo bar', 10 );
 <body>
 <script type="module">
 
-import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@esm/index.mjs';
+import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@v0.0.1-esm/index.mjs';
 
 var str = first( 'last man standing' );
 // returns 'l'
