@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-first/tags). For example,
+
+```javascript
 import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@v0.0.1-deno/mod.js';
 ```
 
@@ -90,7 +95,7 @@ out = first( 'foo bar', 10 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@v0.0.1-deno/mod.js';
+import first from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-first@deno/mod.js';
 
 var str = first( 'last man standing' );
 // returns 'l'
