@@ -81,7 +81,7 @@ The function supports the following options:
     -   `'grapheme'`: grapheme clusters. Appropriate for strings containing visual characters which can span multiple Unicode code points (e.g., emoji).
     -   `'code_point'`: Unicode code points. Appropriate for strings containing visual characters which are comprised of more than one Unicode code unit (e.g., ideographic symbols and punctuation and mathematical alphanumerics).
     -   `'code_unit'`: UTF-16 code units. Appropriate for strings containing visual characters drawn from the basic multilingual plane (BMP) (e.g., common characters, such as those from the Latin, Greek, and Cyrillic alphabets).
-    
+
     Default: `'grapheme'`.
 
 By default, the function returns the first character. To return the first `n` characters, provide a second argument specifying the number of characters to return.
@@ -109,7 +109,6 @@ out = first( 'foo bar', 10 );
 </section>
 
 <!-- /.notes -->
-
 
 <section class="examples">
 
@@ -245,6 +244,12 @@ b
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-remove-first`][@stdlib/string/remove-first]</span><span class="delimiter">: </span><span class="description">remove the first character(s) of a string.</span>
+
 </section>
 
 <!-- /.related -->
@@ -325,6 +330,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
 
 [mdn-regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+<!-- <related-links> -->
+
+[@stdlib/string/remove-first]: https://github.com/stdlib-js/string-remove-first
+
+<!-- </related-links> -->
 
 </section>
 
