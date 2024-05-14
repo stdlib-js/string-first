@@ -251,6 +251,7 @@ b
 ## See Also
 
 -   <span class="package-name">[`@stdlib/string-remove-first`][@stdlib/string/remove-first]</span><span class="delimiter">: </span><span class="description">remove the first character(s) of a string.</span>
+-   <span class="package-name">[`@stdlib/string-last`][@stdlib/string/last]</span><span class="delimiter">: </span><span class="description">return the last character(s) of a string.</span>
 
 </section>
 
@@ -339,6 +340,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 <!-- <related-links> -->
 
 [@stdlib/string/remove-first]: https://github.com/stdlib-js/string-remove-first
+
+[@stdlib/string/last]: https://github.com/stdlib-js/string-last
 
 <!-- </related-links> -->
 
